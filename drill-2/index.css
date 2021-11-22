@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#first-box {
+    margin: 20px;
+    border: solid 5px black;
+    height: 200px;
+}
+
+#sub-first {
+    position: relative;
+    margin: 10px;
+    background-color: blueviolet;
+    height: 130px;
+    width: 40px;
+    top: 10px;
+    display: inline-block;
+}
+
+#sub-second {
+    position: relative;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: green;
+    height: 170px;
+    width: 350px;
+    top: 10px;
+    display: inline-block;
+}
+
+#sub-third {
+    position: relative;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: skyblue;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    top: 10px;
+    display: inline-block;
+}
+
+#second-box {
+    margin: 20px;
+    border: dotted 5px black;
+    height: 200px;
+    padding: 30px;
+}
+
+#sub-second-second {
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 194);
+    height: 170px;
+    width: 100%;
+    top: 10px;
+    display: inline-block;
+    box-shadow: black 10px 10px 10px;
+}
+
+#third-box {
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    border: 2px lightgrey solid;
+    box-shadow: lightgrey 5px 5px 5px;
+}
+
+.text {
+    text-align: center;
+    color: darkblue;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+#top-text {
+    margin-top: 70px;
+}
